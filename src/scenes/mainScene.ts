@@ -8,7 +8,7 @@ export class MainScene extends Phaser.Scene {
   }
 
   preload(): void {
-    this.load.image("logo", "../assets/games/endlessRunner/player.png");
+    this.load.image("logo", "../assets/phaser.png");
   }
 
   create(): void {
